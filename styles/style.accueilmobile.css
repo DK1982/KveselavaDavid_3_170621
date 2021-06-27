@@ -1,0 +1,85 @@
+@media all and (max-width: 570px)
+{
+
+    #bloc-page
+    {
+        width: 100%;
+        margin: 0px;
+        font-family: Roboto, sans-serif;
+    }
+
+    header
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 60px;
+    }
+
+    a
+    {
+        text-decoration: none;
+        color: black;
+    }
+
+    .search
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        background-color: #99E2D0;
+        height: 50px;
+        color: black;
+    }
+
+    .inputSearch
+    {
+        appearance: none;
+        color: none;
+        border-color: none;
+        background-color: none;
+    }
+
+    .input
+    {
+        background-color: none;
+        font-weight: 1.2em;
+        box-sizing: none;
+        border: none;
+        color: none;
+        opacity: 1;
+    }
+
+    .introduction
+    {
+        text-align: center;
+        background-color: antiquewhite;
+        height: 285px;
+    }
+
+    .imgCarte
+    {
+        height: 175px;
+    }
+
+    .carteMenu img
+    {
+        overflow: hidden;
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+    }
+
+    .carteMenu
+    {
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        height: 250px;
+        width: auto;
+    }
+
+}

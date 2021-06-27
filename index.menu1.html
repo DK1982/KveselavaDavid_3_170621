@@ -1,19 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
+        <meta charset="UTF-8">
+        <title>P3 OC - ohmyfood - Menu La palette du goût</title>
+        <link rel="icon" type="image/png" sizes="10x3" href="logos/ohmyfood.png">
+        <link rel="stylesheet" href="styles/styles.menu.css">
+        <link rel="stylesheet" media="all and (max-width: 570px)" href="styles/style.menumobile.css">
+        <link rel="stylesheet" media="all and (min-width: 571px) and (max-width: 1124px)" href="styles/style.menutablette.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        </style>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+        </style>
     </head>
     <body>
         <header>
-
+            <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+            <div id="logo">
+                <img class="logoOhmyfood" src="logos/ohmyfood@2x.svg" alt="logo"/>
+            </div>
         </header>
         <main>
-
+            <div class="imgMenu">
+                <img src="images/la_palette_de_gout.jpg" alt="La palette du goût">
+            </div>
+            <div class="titreMenu">
+                <h1>La palette du goût</h1>
+                <i class="far fa-heart"></i>
+            </div>
+            <div class="entree">
+                <h2>ENTRÉES</h2>
+                <div class="sousligne">____</div>
+                <div>
+                    <p class="nomPlat">Fricassée d'escargot</p>
+                    <div class="descriptionPrix">
+                        <p id="description">Au piment d'Espelette</p>
+                        <p id="prix">25€</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="nomPlat">Foie gras de canard mi-cuit</p>
+                    <div class="descriptionPrix">
+                        <p id="description">Et ses copeaux de truffe noire</p>
+                        <p id="prix">35€</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="nomPlat">Oeuf au plat</p>
+                    <div class="descriptionPrix">
+                        <p id="description">Assaisonné à la truffe sur lit de caviar</p>
+                        <p id="prix">20€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="plat">
+                <h2>PLATS</h2>
+                <div class="sousligne">____</div>
+                <div>
+                    <p class="nomPlat">Filet de boeuf aux herbes</p>
+                    <div class="descriptionPrix">
+                        <p id="description">Accompagné de sa ribambelle de légumes</p>
+                        <p id="prix">40€</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="nomPlat">Parmentier de queue de boeuf</p>
+                    <div class="descriptionPrix">
+                        <p id="description">À la truffe noire sur sa purée de panais</p>
+                        <p id="prix">35€</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="nomPlat">Filet de turbot</p>
+                    <div class="descriptionPrix">
+                        <p id="description">Aux agrumes</p>
+                        <p id="prix">44€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="dessert">
+                <h2>DESSERTS</h2>
+                <div class="sousligne">____</div>
+                <div>
+                    <p class="nomPlat">Paris-Brest</p>
+                    <div class="descriptionPrix">
+                        <p id="description">Revisité</p>
+                        <p id="prix">18€</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="nomPlat">Macaron au chocolat d'exception</p>
+                    <div class="descriptionPrix">
+                        <p id="description">Et glace à la vanille de Madagascar</p>
+                        <p id="prix">22€</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="nomPlat">Mousse au chocolat</p>
+                    <div class="descriptionPrix">
+                        <p id="description">Au piment d'Espelette et à la truffe noire</p>
+                        <p id="prix">23€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="commande">
+                <button class="commande">Commander</button>
+            </div>
         </main>
         <footer>
-            
+            <h3 class="titreFooter">ohmyfood</h3>
+            <ul>
+                <li>
+                    <i class="fas fa-utensils"></i><p>Proposer un restaurant</p>
+                </li>
+                <li><i class="fas fa-hands-helping"></i><p>Devenir partenaire</p></li>
+                <li>Mentions légales</li>
+                <li><a href="mailto:contact@ohmyfood.fr">Contact</a></li>
+            </ul>
         </footer>
-
     </body>
-
 </html>

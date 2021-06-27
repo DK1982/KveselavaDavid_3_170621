@@ -1,19 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-
+        <meta charset="UTF-8">
+        <title>P3 OC - ohmyfood - Menu Le délice des sens</title>
+        <link rel="icon" type="image/png" sizes="10x3" href="logos/ohmyfood.png">
+        <link rel="stylesheet" href="styles/styles.menu.css">
+        <link rel="stylesheet" media="all and (max-width: 570px)" href="styles/style.menumobile.css">
+        <link rel="stylesheet" media="all and (min-width: 571px) and (max-width: 1124px)" href="styles/style.menutablette.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        </style>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap" rel="stylesheet">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Shrikhand&display=swap');
+        </style>
     </head>
     <body>
         <header>
-
+            <a href="index.html"><i class="fas fa-arrow-left"></i></a>
+            <div id="logo">
+                <img class="logoOhmyfood" src="logos/ohmyfood@2x.svg" alt="logo"/>
+            </div>
         </header>
         <main>
-
+            <div class="imgMenu">
+                <img src="images/le_delice_des_sens.jpg" alt="Le délice des sens">
+            </div>
+            <div class="titreMenu">
+                <h1>Le délice des sens</h1>
+                <i class="far fa-heart"></i>
+            </div>
+            <div class="entree">
+                <h2>ENTRÉES</h2>
+                <div class="sousligne">____</div>
+                <div>
+                    <p class="nomPlat">Tartare de thon</p>
+                    <div class="descriptionPrix">
+                        <p id="description">Assaisonné au yuzu</p>
+                        <p id="prix">25€</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="nomPlat">Bouchée de homard croustillant</p>
+                    <div class="descriptionPrix">
+                        <p id="description">Et sa farandole de petits légumes</p>
+                        <p id="prix">35€</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="nomPlat">Velouté de cèpes</p>
+                    <div class="descriptionPrix">
+                        <p id="description">Aux truffes</p>
+                        <p id="prix">20€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="plat">
+                <h2>PLATS</h2>
+                <div class="sousligne">____</div>
+                <div>
+                    <p class="nomPlat">Poulet rôti aux herbes de Provence</p>
+                    <div class="descriptionPrix">
+                        <p id="description">AEt sa crème de truffe</p>
+                        <p id="prix">40€</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="nomPlat">Langouste rôtie</p>
+                    <div class="descriptionPrix">
+                        <p id="description">Et ses légumes de saison</p>
+                        <p id="prix">35€</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="nomPlat">Côte de boeuf Angus</p>
+                    <div class="descriptionPrix">
+                        <p id="description">Et sa purée de panais</p>
+                        <p id="prix">44€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="dessert">
+                <h2>DESSERTS</h2>
+                <div class="sousligne">____</div>
+                <div>
+                    <p class="nomPlat">Farandole de desserts</p>
+                    <div class="descriptionPrix">
+                        <p id="description">Du chef</p>
+                        <p id="prix">18€</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="nomPlat">Crème brulée</p>
+                    <div class="descriptionPrix">
+                        <p id="description">Revisitée</p>
+                        <p id="prix">22€</p>
+                    </div>
+                </div>
+                <div>
+                    <p class="nomPlat">Tiramisu</p>
+                    <div class="descriptionPrix">
+                        <p id="description">À la noisette</p>
+                        <p id="prix">23€</p>
+                    </div>
+                </div>
+            </div>
+            <div class="commande">
+                <button class="commande">Commander</button>
+            </div>
         </main>
         <footer>
-            
+            <h3 class="titreFooter">ohmyfood</h3>
+            <ul>
+                <li>
+                    <i class="fas fa-utensils"></i><p>Proposer un restaurant</p>
+                </li>
+                <li><i class="fas fa-hands-helping"></i><p>Devenir partenaire</p></li>
+                <li>Mentions légales</li>
+                <li><a href="mailto:contact@ohmyfood.fr">Contact</a></li>
+            </ul>
         </footer>
-
     </body>
-
 </html>
