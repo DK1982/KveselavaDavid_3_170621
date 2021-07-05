@@ -30,6 +30,7 @@
     .fa-arrow-left
     {
         position: absolute;
+        margin-left: 0px;
         top: 20px; 
         left: 20px; 
         font-size: large;
@@ -69,7 +70,13 @@
     .fa-heart
     {
         font-size: x-large;
-    }    
+    } 
+    
+    .titreMenu h1
+    {
+        margin-left: 0px;
+    }
+
     .imgMenu img 
     {
         height: 260px;
@@ -142,7 +149,6 @@
     .descriptionPrix p
     {
         margin: 0px 0px;
-
     }
 
     h2 
