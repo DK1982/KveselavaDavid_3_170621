@@ -10,6 +10,7 @@
     body 
     {
         margin: 0;
+        background-color: #f6f6f6;
     }
 
     header
@@ -19,6 +20,7 @@
         align-items: center;
         width: 100%;
         height: 60px;
+        background-color: #ffffff;
     }
 
     #logo
@@ -148,6 +150,10 @@
     .descriptionPrix p
     {
         margin: 0px 0px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 400px;
+        white-space: nowrap;
     }
 
     h2 
