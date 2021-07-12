@@ -142,6 +142,8 @@ main
 {
     font-size: 1.1em;
     font-weight: bold;
+    min-width: 40px;
+    margin-left: 10px;
 }
 
 .descriptionPrix p
