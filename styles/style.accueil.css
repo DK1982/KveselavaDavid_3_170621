@@ -329,23 +329,6 @@ p
     font-weight: bold;
     cursor: pointer;
 }
-/*.fa-heart {
-    /*color: #FFF;
-    border-radius: 50%;
-    padding:.2em;*/
-}
-/*.fa-heart::before {
-    content: "\f004";
-    font-weight: bold;
-    /*transition: color 1s ease-out;*/
-    /*color: #eaeaea;
-}
-.fa-heart:hover::before{
-    color:#FF79DA;
-    cursor: pointer;
-    font-weight: bold;
-    transition: color 1s ease-out;
-}*/
 
 .new1
 {
@@ -377,7 +360,6 @@ p
     margin-top: -30px;
     color: #008766;
 }
-
 
 footer 
 {
