@@ -69,6 +69,22 @@ main
     margin-right: 40px;
 }  
 
+/*.fa-heart {
+    color: #000000;
+    border-radius: 50%;
+    padding:.2em;*/
+}
+.fa-heart::before {
+    content: "\f004";
+    /*font-weight: bold;*/
+    /*transition: color 1s ease-out;*/
+}
+.fa-heart:hover::before{
+    color:#FF79DA;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 1s ease-out;
+}
 .titreMenu h1
 {
     margin-left: 40px;
