@@ -157,6 +157,12 @@ a
     box-shadow: 0px 10px 20px #c5c5c5;
 }
 
+.explorer:hover
+{
+    background: #c581e0;
+    box-shadow: 0px 10px 5px #c5c5c5;
+}
+
 .mapMarkerIcon
 {
     color: #353535; 

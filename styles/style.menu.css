@@ -34,6 +34,7 @@ header
     left: 20px; 
     font-size: large;
 }
+
 a
 {
     text-decoration: none;
@@ -69,16 +70,10 @@ main
     margin-right: 40px;
 }  
 
-/*.fa-heart {
-    color: #000000;
-    border-radius: 50%;
-    padding:.2em;*/
-}
 .fa-heart::before {
     content: "\f004";
-    /*font-weight: bold;*/
-    /*transition: color 1s ease-out;*/
 }
+
 .fa-heart:hover::before{
     color:#FF79DA;
     font-weight: bold;
@@ -105,6 +100,7 @@ main
     align-items: flex-start;
     gap: 30px
     margin-top: 90px;
+    overflow: hidden;
 }
 
 .entree, .plat, .dessert
@@ -116,6 +112,74 @@ main
     width: 100%;
     margin-top: 90px;
 }
+.entree
+{
+    animation: entree 1500ms linear 0ms;
+}
+@keyframes entree{
+    0%{
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    25%{
+        transform: translateY(0px);
+        opacity: 0.5;
+    }
+    75%{
+        transform: translateY(0px);
+        opacity: 0.7;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+.plat
+{
+    animation: plat 1500ms linear 0ms;
+}
+@keyframes plat{
+    0%{
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    25%{
+        transform: translateY(-10px);
+        opacity: 0.1;
+    }
+    75%{
+        transform: translateY(0px);
+        opacity: 0.8;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
+
+.dessert
+{
+    animation: dessert 1500ms linear 0ms;
+}
+@keyframes dessert{
+    0%{
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    25%{
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+    75%{
+        transform: translateY(-10px);
+        opacity: 0.3;
+    }
+    100%{
+        transform: translate(0);
+        opacity: 1;
+    }
+}
 
 .plats
 {
@@ -126,7 +190,7 @@ main
     width: 100%;
 }
 
-.cartePlat
+/*.cartePlat
 {
     display: flex;
     flex-direction: column;
@@ -137,6 +201,66 @@ main
     background-color: #ffffff;
     border-radius: 15px;
     box-shadow: 0 5px 5px #c5c5c5;
+}*/
+
+.cartePlat
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 70px; 
+    width: 97%;
+    margin: 7px 0;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px #c5c5c5;
+    overflow: hidden;
+}
+
+.carteVisible
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+    height: 56px;
+    background-color: #ffffff;
+}
+
+.greenCheck
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #99e2d0;
+    width: 0px;
+    height: 70px;
+    opacity: 1;
+    transition: all 400ms ease-in-out;
+}
+
+.fa-check-circle
+{
+    color: white;
+    font-size: 1.2em;
+    transition: all 400ms ease-in-out 100ms;
+}
+
+.carteVisible:hover > .descriptionPrix
+{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.carteVisible:hover + .greenCheck
+{
+    width: 70px;
+}
+
+.cartePlat:hover > .greenCheck > .fa-check-circle
+{
+    transform: rotate(360deg);
 }
 
 .nomPlat
@@ -154,7 +278,7 @@ main
     margin: 0px 20px 10px 13px;
 }
 
-#prix
+.prix
 {
     font-size: 1.1em;
     font-weight: bold;
@@ -205,6 +329,11 @@ h2
     border-radius: 25px;
     border: none;
     box-shadow: 0px 10px 20px #c5c5c5;
+}
+
+.commande:hover{
+    background: #c581e0;
+    box-shadow: 0px 10px 5px #c5c5c5;
 }
 
 footer 

@@ -114,7 +114,7 @@
         width: 100%;
     }
 
-    .cartePlat
+    /*.cartePlat
     {
         display: flex;
         flex-direction: column;
@@ -125,6 +125,66 @@
         background-color: #ffffff;
         border-radius: 15px;
         box-shadow: 0 5px 5px #c5c5c5;
+    }*/
+
+    .cartePlat
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        height: 70px; 
+        width: 97%;
+        margin: 7px 0;
+        background-color: #ffffff;
+        border-radius: 15px;
+        box-shadow: 0 5px 5px #c5c5c5;
+        overflow: hidden;
+    }
+
+    .carteVisible
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 100%;
+        height: 56px;
+        background-color: #ffffff;
+    }
+
+    .greenCheck
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: #99e2d0;
+        width: 0px;
+        height: 70px;
+        opacity: 1;
+        transition: all 400ms ease-in-out;
+    }
+
+    .fa-check-circle
+    {
+        color: white;
+        font-size: 1.2em;
+        transition: all 400ms ease-in-out 100ms;
+    }
+
+    .carteVisible:hover > .descriptionPrix
+    {
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    .carteVisible:hover + .greenCheck
+    {
+        width: 70px;
+    }
+
+    .cartePlat:hover > .greenCheck > .fa-check-circle
+    {
+        transform: rotate(360deg);
     }
 
     .nomPlat
@@ -142,7 +202,7 @@
         margin: 0px 20px 10px 13px;
     }
 
-    #prix
+    .prix
     {
         font-size: 1.1em;
         font-weight: bold;
