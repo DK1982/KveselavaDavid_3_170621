@@ -172,6 +172,7 @@
 
     .carteVisible:hover > .descriptionPrix
     {
+        overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
     }
