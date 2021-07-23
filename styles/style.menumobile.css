@@ -146,8 +146,11 @@
         flex-direction: column;
         justify-content: flex-start;
         width: 100%;
-        height: 56px;
+        height: 70px;
         background-color: #ffffff;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
     }
 
     .greenCheck
@@ -172,6 +175,8 @@
 
     .carteVisible:hover > .descriptionPrix
     {
+        display: flex;
+        flex-direction: row;
         overflow: hidden;
         text-overflow: ellipsis;
         white-space: nowrap;
@@ -200,6 +205,10 @@
         flex-direction: row;
         justify-content: space-between;
         margin: 0px 20px 10px 13px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
     }
 
     .prix

@@ -98,8 +98,8 @@ main
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 30px;
-    margin-top: 90px;
+    gap: 10px;
+    margin-top: 20px;
     overflow: hidden;
 }
 
@@ -190,19 +190,6 @@ main
     width: 100%;
 }
 
-/*.cartePlat
-{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    height: 70px; 
-    width: 97%;
-    margin: 7px 0;
-    background-color: #ffffff;
-    border-radius: 15px;
-    box-shadow: 0 5px 5px #c5c5c5;
-}*/
-
 .cartePlat
 {
     display: flex;
@@ -223,8 +210,11 @@ main
     flex-direction: column;
     justify-content: flex-start;
     width: 100%;
-    height: 56px;
+    height: 70px;
     background-color: #ffffff;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .greenCheck
@@ -247,11 +237,11 @@ main
     transition: all 400ms ease-in-out 100ms;
 }
 
-.carteVisible:hover > .descriptionPrix
+/*.carteVisible:hover > .descriptionPrix
 {
     text-overflow: ellipsis;
     white-space: nowrap;
-}
+}*/
 
 .carteVisible:hover + .greenCheck
 {
@@ -268,6 +258,9 @@ main
     font-size: 1.2em;
     font-weight: bold;
     margin: 10px 5px 5px 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .descriptionPrix
@@ -276,6 +269,9 @@ main
     flex-direction: row;
     justify-content: space-between;
     margin: 0px 20px 10px 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .prix
@@ -291,7 +287,7 @@ main
     margin: 0px 0px;
     overflow: hidden;
     text-overflow: ellipsis;
-    max-width: 400px;
+    /*max-width: 400px;*/
     white-space: nowrap;
 }
 
