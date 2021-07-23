@@ -13,6 +13,12 @@
         background-color: #f6f6f6;
     }
 
+    main
+    {
+        width: 100%;
+        margin: 0;
+    }
+
     header
     {
         display: flex;
@@ -258,6 +264,12 @@
         background-color: #353535;
         color: white;
         padding: 1px 20px;
+    }
+
+    .footer
+    {
+        width: 100%;
+        margin: 0;
     }
 
     .titreFooter

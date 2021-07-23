@@ -1,6 +1,6 @@
 #bloc-page
 {
-    width: 90%;
+    width: 100%;
     margin: auto;
     font-family: Roboto, sans-serif;
 }
@@ -10,6 +10,12 @@ body
     margin: auto;
     max-width: 1400px;
     background-color: #f6f6f6;
+}
+
+main
+{
+    width: 90%;
+    margin: auto;
 }
 
 
@@ -155,6 +161,7 @@ a
     border-radius: 25px;
     border: none;
     box-shadow: 0px 10px 20px #c5c5c5;
+    cursor: pointer;
 }
 
 .explorer:hover
@@ -378,6 +385,12 @@ footer
     background-color: #353535;
     color: white;
     padding: 1px 20px;
+}
+
+.footer 
+{
+    width: 90%;
+    margin: auto;
 }
 
 .titreFooter

@@ -1,6 +1,6 @@
 #bloc-page
 {
-    width: 90%;
+    width: 100%;
     margin: auto;
     font-family: Roboto, sans-serif;
 }
@@ -9,6 +9,14 @@ body
 {
     margin: 0;
     background-color: #f6f6f6;
+}
+
+main
+{
+    width: 90%;
+    margin: auto;
+    background-color: #f6f6f6;
+    height: auto;
 }
 
 header
@@ -39,13 +47,6 @@ a
 {
     text-decoration: none;
     color: black;
-}
-
-main 
-{
-    background-color: #f6f6f6;
-    width: 100%;
-    height: auto;
 }
 
 .titreMenu
@@ -215,6 +216,7 @@ main
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
+    cursor: pointer;
 }
 
 .greenCheck
@@ -246,6 +248,7 @@ main
 .carteVisible:hover + .greenCheck
 {
     width: 70px;
+    cursor: pointer;
 }
 
 .cartePlat:hover > .greenCheck > .fa-check-circle
@@ -325,6 +328,7 @@ h2
     border-radius: 25px;
     border: none;
     box-shadow: 0px 10px 20px #c5c5c5;
+    cursor: pointer;
 }
 
 .commande:hover{
@@ -337,6 +341,12 @@ footer
     background-color: #353535;
     color: white;
     padding: 1px 20px;
+}
+
+.footer
+{
+    width: 90%;
+    margin: auto;
 }
 
 .titreFooter

@@ -286,6 +286,10 @@
         padding: 1px 20px;
     }
 
+    .footer{
+        width: 100%;
+    }
+
     .titreFooter
     {
         font-family: Shrikhand, sans-serif;
