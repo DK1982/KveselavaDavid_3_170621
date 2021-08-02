@@ -253,7 +253,7 @@ a
 
 .cartePlat:hover > .greenCheck > .fa-check-circle
 {
-    transform: rotate(360deg);
+    transform: rotate(-360deg);
 }
 
 .nomPlat
