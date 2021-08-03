@@ -89,7 +89,7 @@
     }
     .explorer
     {
-        background: #b962dc;
+        background: linear-gradient(#e871db, #a55cdc);
         color: white;
         margin-top: 20px;
         height: 50px;
@@ -294,7 +294,7 @@
     .footer{
         width: 100%;
     }
-    
+
     .titreFooter
     {
         font-family: Shrikhand, sans-serif;

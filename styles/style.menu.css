@@ -67,19 +67,19 @@ a
 
 .fa-heart
 {
-    font-size: x-large;
-    margin-right: 40px;
-}  
-
-.fa-heart::before {
-    content: "\f004";
+    margin: 30px 30px auto auto; 
+    font-size: 1.3em;
+    color: #353535;
+    transition: all 1s ease-out;
 }
 
-.fa-heart:hover::before{
-    color:#FF79DA;
+.fa-heart:hover{
+    transform: scale(1.1);
     font-weight: bold;
     cursor: pointer;
-    transition: color 1s ease-out;
+    background: linear-gradient(#a25bdc, #e170db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .titreMenu h1
 {
@@ -239,12 +239,6 @@ a
     transition: all 400ms ease-in-out 100ms;
 }
 
-/*.carteVisible:hover > .descriptionPrix
-{
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}*/
-
 .carteVisible:hover + .greenCheck
 {
     width: 70px;
@@ -318,7 +312,7 @@ h2
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #b962dc;
+    background: linear-gradient(#e871db, #a55cdc);
     color: white;
     margin: 50px auto 60px auto;
     height: 50px;
@@ -332,7 +326,7 @@ h2
 }
 
 .commande:hover{
-    background: #c581e0;
+    background: linear-gradient(#d2aae6, #c581e0);
     box-shadow: 0px 10px 5px #c5c5c5;
 }
 

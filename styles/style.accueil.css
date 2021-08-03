@@ -151,7 +151,7 @@ a
 }
 .explorer
 {
-    background: #b962dc;
+    background: linear-gradient(#e871db, #a55cdc);
     color: white;
     margin-top: 20px;
     height: 50px;
@@ -166,7 +166,7 @@ a
 
 .explorer:hover
 {
-    background: #c581e0;
+    background: linear-gradient(#d2aae6, #c581e0);
     box-shadow: 0px 10px 5px #c5c5c5;
 }
 
@@ -344,9 +344,11 @@ p
 
 .fa-heart:hover{
     transform: scale(1.1);
-    color: #FF79DA;
     font-weight: bold;
     cursor: pointer;
+    background: linear-gradient(#a25bdc, #e170db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .new1

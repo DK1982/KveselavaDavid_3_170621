@@ -234,7 +234,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background: #b962dc;
+        background: linear-gradient(#e871db, #a55cdc);
         color: white;
         margin: 50px auto 60px auto;
         height: 50px;
